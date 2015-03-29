@@ -1,0 +1,4 @@
+#ignore Atom Cache folder
+atom/.config/Atom/Cache
+atom/.config/Atom/GPUCache
+
