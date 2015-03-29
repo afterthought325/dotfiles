@@ -1,0 +1,10 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Correct Spelling",
+        "command": "spell-check:correct-misspelling"
+      }
+    ]
+  }
+}

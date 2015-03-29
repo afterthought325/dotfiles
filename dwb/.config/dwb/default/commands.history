@@ -1,0 +1,3 @@
+set adblocker-filterlist /home/chaise/.config/dwb/adblock_lists
+adblock_reload_rules
+set adblocker true

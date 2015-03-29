@@ -1,0 +1,205 @@
+[15189:0317/155719:ERROR:browser_main_loop.cc(164)] Running without the SUID sandbox! See https://code.google.com/p/chromium/wiki/LinuxSUIDSandboxDevelopment for more information on developing with the sandbox on.
+[15220:0317/155719:INFO:renderer_main.cc(211)] Renderer process started
+App load time: 411ms
+[15189:0317/155722:INFO:CONSOLE(8)] "/home/chaise/.atom/packages/linter", source: /home/chaise/.atom/packages/linter-python-pep8/lib/linter-python-pep8.coffee (8)
+[15189:0317/155722:INFO:CONSOLE(7)] "activate linter-python-pep8", source: /home/chaise/.atom/packages/linter-python-pep8/lib/init.coffee (7)
+[15189:0317/155722:INFO:CONSOLE(175)] "Upgraded the following syntax theme selectors in `/home/chaise/.atom/packages/seti-syntax/index.less` for shadow DOM compatibility:
+
+`.editor-colors` => `:host`
+`.editor` => `:host`
+`.editor .wrap-guide` => `:host .wrap-guide`
+`.editor .indent-guide` => `:host .indent-guide`
+`.editor .invisible-character` => `:host .invisible-character`
+`.editor .gutter` => `:host .gutter`
+`.editor .gutter .line-number` => `:host .gutter .line-number`
+`.editor .gutter .line-number.cursor-line` => `:host .gutter .line-number.cursor-line`
+`.editor .gutter .line-number.cursor-line-no-selection` => `:host .gutter .line-number.cursor-line-no-selection`
+`.editor .gutter .line-number:hover` => `:host .gutter .line-number:hover`
+`.editor .gutter .line-number.folded, .editor .gutter .line-number::after, .editor .fold-marker::after` => `:host .gutter .line-number.folded, :host .gutter .line-number::after, :host .fold-marker::after`
+`.editor .invisible` => `:host .invisible`
+`.editor .cursor` => `:host .cursor`
+`.editor .selection .region` => `:host .selection .region`
+`.editor .search-results .marker .region` => `:host .search-results .marker .region`
+`.editor .search-results .marker.current-result .region` => `:host .search-results .marker.current-result .region`
+`.editor.mini .scroll-view` => `:host(.mini) .scroll-view`
+
+See the upgrade guide for information on removing this warning.", source: /usr/share/atom/resources/app/src/styles-element.js (175)
+[15189:0317/155722:INFO:CONSOLE(56)] "Window load time: 3002ms", source: file:///usr/share/atom/resources/app/static/index.js (56)
+[15189:0317/155743:INFO:CONSOLE(175)] "Upgraded the following syntax theme selectors in `/home/chaise/.atom/packages/seti-syntax/index.less` for shadow DOM compatibility:
+
+`.editor-colors` => `:host`
+`.editor` => `:host`
+`.editor .wrap-guide` => `:host .wrap-guide`
+`.editor .indent-guide` => `:host .indent-guide`
+`.editor .invisible-character` => `:host .invisible-character`
+`.editor .gutter` => `:host .gutter`
+`.editor .gutter .line-number` => `:host .gutter .line-number`
+`.editor .gutter .line-number.cursor-line` => `:host .gutter .line-number.cursor-line`
+`.editor .gutter .line-number.cursor-line-no-selection` => `:host .gutter .line-number.cursor-line-no-selection`
+`.editor .gutter .line-number:hover` => `:host .gutter .line-number:hover`
+`.editor .gutter .line-number.folded, .editor .gutter .line-number::after, .editor .fold-marker::after` => `:host .gutter .line-number.folded, :host .gutter .line-number::after, :host .fold-marker::after`
+`.editor .invisible` => `:host .invisible`
+`.editor .cursor` => `:host .cursor`
+`.editor .selection .region` => `:host .selection .region`
+`.editor .search-results .marker .region` => `:host .search-results .marker .region`
+`.editor .search-results .marker.current-result .region` => `:host .search-results .marker.current-result .region`
+`.editor.mini .scroll-view` => `:host(.mini) .scroll-view`
+
+See the upgrade guide for information on removing this warning.", source: /usr/share/atom/resources/app/src/styles-element.js (175)
+[15361:0317/155802:INFO:renderer_main.cc(211)] Renderer process started
+[15189:0317/155803:INFO:CONSOLE(8)] "/home/chaise/.atom/packages/linter", source: /home/chaise/.atom/packages/linter-python-pep8/lib/linter-python-pep8.coffee (8)
+[15189:0317/155803:INFO:CONSOLE(7)] "activate linter-python-pep8", source: /home/chaise/.atom/packages/linter-python-pep8/lib/init.coffee (7)
+[15189:0317/155803:INFO:CONSOLE(56)] "Window load time: 1075ms", source: file:///usr/share/atom/resources/app/static/index.js (56)
+[15189:0317/155829:INFO:CONSOLE(175)] "Upgraded the following syntax theme selectors in `/home/chaise/.atom/packages/seti-syntax/index.less` for shadow DOM compatibility:
+
+`.editor-colors` => `:host`
+`.editor` => `:host`
+`.editor .wrap-guide` => `:host .wrap-guide`
+`.editor .indent-guide` => `:host .indent-guide`
+`.editor .invisible-character` => `:host .invisible-character`
+`.editor .gutter` => `:host .gutter`
+`.editor .gutter .line-number` => `:host .gutter .line-number`
+`.editor .gutter .line-number.cursor-line` => `:host .gutter .line-number.cursor-line`
+`.editor .gutter .line-number.cursor-line-no-selection` => `:host .gutter .line-number.cursor-line-no-selection`
+`.editor .gutter .line-number:hover` => `:host .gutter .line-number:hover`
+`.editor .gutter .line-number.folded, .editor .gutter .line-number::after, .editor .fold-marker::after` => `:host .gutter .line-number.folded, :host .gutter .line-number::after, :host .fold-marker::after`
+`.editor .invisible` => `:host .invisible`
+`.editor .cursor` => `:host .cursor`
+`.editor .selection .region` => `:host .selection .region`
+`.editor .search-results .marker .region` => `:host .search-results .marker .region`
+`.editor .search-results .marker.current-result .region` => `:host .search-results .marker.current-result .region`
+`.editor.mini .scroll-view` => `:host(.mini) .scroll-view`
+
+See the upgrade guide for information on removing this warning.", source: /usr/share/atom/resources/app/src/styles-element.js (175)
+[15189:0317/155841:INFO:CONSOLE(175)] "Upgraded the following syntax theme selectors in `/home/chaise/.atom/packages/seti-syntax/index.less` for shadow DOM compatibility:
+
+`.editor-colors` => `:host`
+`.editor` => `:host`
+`.editor .wrap-guide` => `:host .wrap-guide`
+`.editor .indent-guide` => `:host .indent-guide`
+`.editor .invisible-character` => `:host .invisible-character`
+`.editor .gutter` => `:host .gutter`
+`.editor .gutter .line-number` => `:host .gutter .line-number`
+`.editor .gutter .line-number.cursor-line` => `:host .gutter .line-number.cursor-line`
+`.editor .gutter .line-number.cursor-line-no-selection` => `:host .gutter .line-number.cursor-line-no-selection`
+`.editor .gutter .line-number:hover` => `:host .gutter .line-number:hover`
+`.editor .gutter .line-number.folded, .editor .gutter .line-number::after, .editor .fold-marker::after` => `:host .gutter .line-number.folded, :host .gutter .line-number::after, :host .fold-marker::after`
+`.editor .invisible` => `:host .invisible`
+`.editor .cursor` => `:host .cursor`
+`.editor .selection .region` => `:host .selection .region`
+`.editor .search-results .marker .region` => `:host .search-results .marker .region`
+`.editor .search-results .marker.current-result .region` => `:host .search-results .marker.current-result .region`
+`.editor.mini .scroll-view` => `:host(.mini) .scroll-view`
+
+See the upgrade guide for information on removing this warning.", source: /usr/share/atom/resources/app/src/styles-element.js (175)
+[15189:0317/155851:INFO:CONSOLE(175)] "Upgraded the following syntax theme selectors in `/home/chaise/.atom/packages/seti-syntax/index.less` for shadow DOM compatibility:
+
+`.editor-colors` => `:host`
+`.editor` => `:host`
+`.editor .wrap-guide` => `:host .wrap-guide`
+`.editor .indent-guide` => `:host .indent-guide`
+`.editor .invisible-character` => `:host .invisible-character`
+`.editor .gutter` => `:host .gutter`
+`.editor .gutter .line-number` => `:host .gutter .line-number`
+`.editor .gutter .line-number.cursor-line` => `:host .gutter .line-number.cursor-line`
+`.editor .gutter .line-number.cursor-line-no-selection` => `:host .gutter .line-number.cursor-line-no-selection`
+`.editor .gutter .line-number:hover` => `:host .gutter .line-number:hover`
+`.editor .gutter .line-number.folded, .editor .gutter .line-number::after, .editor .fold-marker::after` => `:host .gutter .line-number.folded, :host .gutter .line-number::after, :host .fold-marker::after`
+`.editor .invisible` => `:host .invisible`
+`.editor .cursor` => `:host .cursor`
+`.editor .selection .region` => `:host .selection .region`
+`.editor .search-results .marker .region` => `:host .search-results .marker .region`
+`.editor .search-results .marker.current-result .region` => `:host .search-results .marker.current-result .region`
+`.editor.mini .scroll-view` => `:host(.mini) .scroll-view`
+
+See the upgrade guide for information on removing this warning.", source: /usr/share/atom/resources/app/src/styles-element.js (175)
+[15189:0317/155853:INFO:CONSOLE(175)] "Upgraded the following syntax theme selectors in `/home/chaise/.atom/packages/seti-syntax/index.less` for shadow DOM compatibility:
+
+`.editor-colors` => `:host`
+`.editor` => `:host`
+`.editor .wrap-guide` => `:host .wrap-guide`
+`.editor .indent-guide` => `:host .indent-guide`
+`.editor .invisible-character` => `:host .invisible-character`
+`.editor .gutter` => `:host .gutter`
+`.editor .gutter .line-number` => `:host .gutter .line-number`
+`.editor .gutter .line-number.cursor-line` => `:host .gutter .line-number.cursor-line`
+`.editor .gutter .line-number.cursor-line-no-selection` => `:host .gutter .line-number.cursor-line-no-selection`
+`.editor .gutter .line-number:hover` => `:host .gutter .line-number:hover`
+`.editor .gutter .line-number.folded, .editor .gutter .line-number::after, .editor .fold-marker::after` => `:host .gutter .line-number.folded, :host .gutter .line-number::after, :host .fold-marker::after`
+`.editor .invisible` => `:host .invisible`
+`.editor .cursor` => `:host .cursor`
+`.editor .selection .region` => `:host .selection .region`
+`.editor .search-results .marker .region` => `:host .search-results .marker .region`
+`.editor .search-results .marker.current-result .region` => `:host .search-results .marker.current-result .region`
+`.editor.mini .scroll-view` => `:host(.mini) .scroll-view`
+
+See the upgrade guide for information on removing this warning.", source: /usr/share/atom/resources/app/src/styles-element.js (175)
+[15189:0317/160114:INFO:CONSOLE(175)] "Upgraded the following syntax theme selectors in `/home/chaise/.atom/packages/seti-syntax/index.less` for shadow DOM compatibility:
+
+`.editor-colors` => `:host`
+`.editor` => `:host`
+`.editor .wrap-guide` => `:host .wrap-guide`
+`.editor .indent-guide` => `:host .indent-guide`
+`.editor .invisible-character` => `:host .invisible-character`
+`.editor .gutter` => `:host .gutter`
+`.editor .gutter .line-number` => `:host .gutter .line-number`
+`.editor .gutter .line-number.cursor-line` => `:host .gutter .line-number.cursor-line`
+`.editor .gutter .line-number.cursor-line-no-selection` => `:host .gutter .line-number.cursor-line-no-selection`
+`.editor .gutter .line-number:hover` => `:host .gutter .line-number:hover`
+`.editor .gutter .line-number.folded, .editor .gutter .line-number::after, .editor .fold-marker::after` => `:host .gutter .line-number.folded, :host .gutter .line-number::after, :host .fold-marker::after`
+`.editor .invisible` => `:host .invisible`
+`.editor .cursor` => `:host .cursor`
+`.editor .selection .region` => `:host .selection .region`
+`.editor .search-results .marker .region` => `:host .search-results .marker .region`
+`.editor .search-results .marker.current-result .region` => `:host .search-results .marker.current-result .region`
+`.editor.mini .scroll-view` => `:host(.mini) .scroll-view`
+
+See the upgrade guide for information on removing this warning.", source: /usr/share/atom/resources/app/src/styles-element.js (175)
+[15189:0317/160702:INFO:CONSOLE(175)] "Upgraded the following syntax theme selectors in `/home/chaise/.atom/packages/seti-syntax/index.less` for shadow DOM compatibility:
+
+`.editor-colors` => `:host`
+`.editor` => `:host`
+`.editor .wrap-guide` => `:host .wrap-guide`
+`.editor .indent-guide` => `:host .indent-guide`
+`.editor .invisible-character` => `:host .invisible-character`
+`.editor .gutter` => `:host .gutter`
+`.editor .gutter .line-number` => `:host .gutter .line-number`
+`.editor .gutter .line-number.cursor-line` => `:host .gutter .line-number.cursor-line`
+`.editor .gutter .line-number.cursor-line-no-selection` => `:host .gutter .line-number.cursor-line-no-selection`
+`.editor .gutter .line-number:hover` => `:host .gutter .line-number:hover`
+`.editor .gutter .line-number.folded, .editor .gutter .line-number::after, .editor .fold-marker::after` => `:host .gutter .line-number.folded, :host .gutter .line-number::after, :host .fold-marker::after`
+`.editor .invisible` => `:host .invisible`
+`.editor .cursor` => `:host .cursor`
+`.editor .selection .region` => `:host .selection .region`
+`.editor .search-results .marker .region` => `:host .search-results .marker .region`
+`.editor .search-results .marker.current-result .region` => `:host .search-results .marker.current-result .region`
+`.editor.mini .scroll-view` => `:host(.mini) .scroll-view`
+
+See the upgrade guide for information on removing this warning.", source: /usr/share/atom/resources/app/src/styles-element.js (175)
+[15189:0317/160800:INFO:CONSOLE(175)] "Upgraded the following syntax theme selectors in `/home/chaise/.atom/packages/seti-syntax/index.less` for shadow DOM compatibility:
+
+`.editor-colors` => `:host`
+`.editor` => `:host`
+`.editor .wrap-guide` => `:host .wrap-guide`
+`.editor .indent-guide` => `:host .indent-guide`
+`.editor .invisible-character` => `:host .invisible-character`
+`.editor .gutter` => `:host .gutter`
+`.editor .gutter .line-number` => `:host .gutter .line-number`
+`.editor .gutter .line-number.cursor-line` => `:host .gutter .line-number.cursor-line`
+`.editor .gutter .line-number.cursor-line-no-selection` => `:host .gutter .line-number.cursor-line-no-selection`
+`.editor .gutter .line-number:hover` => `:host .gutter .line-number:hover`
+`.editor .gutter .line-number.folded, .editor .gutter .line-number::after, .editor .fold-marker::after` => `:host .gutter .line-number.folded, :host .gutter .line-number::after, :host .fold-marker::after`
+`.editor .invisible` => `:host .invisible`
+`.editor .cursor` => `:host .cursor`
+`.editor .selection .region` => `:host .selection .region`
+`.editor .search-results .marker .region` => `:host .search-results .marker .region`
+`.editor .search-results .marker.current-result .region` => `:host .search-results .marker.current-result .region`
+`.editor.mini .scroll-view` => `:host(.mini) .scroll-view`
+
+See the upgrade guide for information on removing this warning.", source: /usr/share/atom/resources/app/src/styles-element.js (175)
+[19311:0317/161307:INFO:renderer_main.cc(211)] Renderer process started
+[15189:0317/161309:INFO:CONSOLE(8)] "/home/chaise/.atom/packages/linter", source: /home/chaise/.atom/packages/linter-python-pep8/lib/linter-python-pep8.coffee (8)
+[15189:0317/161309:INFO:CONSOLE(7)] "activate linter-python-pep8", source: /home/chaise/.atom/packages/linter-python-pep8/lib/init.coffee (7)
+[15189:0317/161310:INFO:CONSOLE(56)] "Window load time: 2538ms", source: file:///usr/share/atom/resources/app/static/index.js (56)
+[15189:0317/161329:ERROR:channel.cc(258)] RawChannel read error (connection broken)
+[15189:0317/231839:ERROR:channel.cc(258)] RawChannel read error (connection broken)
