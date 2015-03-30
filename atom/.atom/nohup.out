@@ -1,6 +1,0 @@
-[6717:0329/225818:ERROR:browser_main_loop.cc(164)] Running without the SUID sandbox! See https://code.google.com/p/chromium/wiki/LinuxSUIDSandboxDevelopment for more information on developing with the sandbox on.
-[6748:0329/225819:INFO:renderer_main.cc(211)] Renderer process started
-App load time: 409ms
-[6717:0329/225822:INFO:CONSOLE(8)] "/home/chaise/dotfiles/atom/.atom/packages/linter", source: /home/chaise/.atom/packages/linter-python-pep8/lib/linter-python-pep8.coffee (8)
-[6717:0329/225822:INFO:CONSOLE(7)] "activate linter-python-pep8", source: /home/chaise/.atom/packages/linter-python-pep8/lib/init.coffee (7)
-[6717:0329/225823:INFO:CONSOLE(56)] "Window load time: 3549ms", source: file:///usr/share/atom/resources/app/static/index.js (56)
