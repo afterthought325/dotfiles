@@ -26,9 +26,18 @@ URxvt.perl-ext-common: default,matcher
 URxvt.url-launcher: /usr/bin/google-chrome-stable
 URxvt.matcher.button: 1
 
-URxvt*.depth: 32
-URxvt.background: [80]#000000
-!URxvt*termName:                       string
+Xft.dpi: 96
+Xft.antialias: true
+Xft.rgba: rgb
+Xft.hinting: true
+Xft.hintstyle: hintslight
+Xft.autohint: true
+Xft.lcdfilter: lcddefault
+
+
+! URxvt*.depth: 32 
+! URxvt.background: [80]#000000
+! URxvt*termName:                       string
 ! URxvt*geometry:                       geometry
 ! URxvt*chdir:                          string
 ! URxvt*reverseVideo:                   boolean
@@ -51,7 +60,7 @@ URxvt.background: [80]#000000
 ! URxvt*tintColor:                      color
 ! URxvt*shading:                        number
 ! URxvt*blurRadius:                     HxV
- URxvt*fading:                         20
+! URxvt*fading:                         20
 ! URxvt*fadeColor:                      color
 ! URxvt*utmpInhibit:                    boolean
 ! URxvt*urgentOnBell:                   boolean
@@ -64,8 +73,8 @@ URxvt.background: [80]#000000
 ! URxvt*cursorUnderline:                boolean
 ! URxvt*cursorBlink:                    boolean
 ! URxvt*pointerBlank:                   boolean
- URxvt*background:                     black
- URxvt*foreground:                     cyan3
+! URxvt*background:                     black
+! URxvt*foreground:                     cyan3
 ! URxvt*color0:                         color
 ! URxvt*color1:                         color
 ! URxvt*color2:                         color
@@ -97,10 +106,10 @@ URxvt.background: [80]#000000
 ! URxvt*pointerColor2:                  color
 ! URxvt*borderColor:                    color
 ! URxvt*iconFile:                       file
-URxvt*font:                           xft:Ubuntu Mono:size=11
-URxvt*boldFont:                       xft:Ubuntu Mono Bold:size=11
-URxvt*italicFont:                     xft:Ubuntu Mono Italic:size=11
- URxvt*boldItalicFont:                 xft:Ubuntu Mono Bold Italic:size=11
+*font:                           xft:Ubuntu Mono:size=11
+*boldFont:                       xft:Ubuntu Mono Bold:size=11
+*italicFont:                     xft:Ubuntu Mono Italic:size=11
+*boldItalicFont:                 xft:Ubuntu Mono Bold Italic:size=11
 ! URxvt*intensityStyles:                boolean
 ! URxvt*inputMethod:                    name
 ! URxvt*preeditType:                    style
