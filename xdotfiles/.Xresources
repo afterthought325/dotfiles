@@ -106,10 +106,10 @@ Xft.lcdfilter: lcddefault
 ! URxvt*pointerColor2:                  color
 ! URxvt*borderColor:                    color
 ! URxvt*iconFile:                       file
-*font:                           xft:Ubuntu Mono:size=11
-*boldFont:                       xft:Ubuntu Mono Bold:size=11
-*italicFont:                     xft:Ubuntu Mono Italic:size=11
-*boldItalicFont:                 xft:Ubuntu Mono Bold Italic:size=11
+*font:                           xft:Inconsolata:size=10
+*boldFont:                       xft:Inconsolata Bold:size=11
+*italicFont:                     xft:Inconsolata Italic:size=11
+*boldItalicFont:                 xft:Inconsolata Bold Italic:size=11
 ! URxvt*intensityStyles:                boolean
 ! URxvt*inputMethod:                    name
 ! URxvt*preeditType:                    style

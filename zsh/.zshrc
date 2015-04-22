@@ -129,3 +129,4 @@ alias pacrem='s pacman -Rs'
 
 #Arrow-key interface
 zstyle ':completion:*' menu select
+source /usr/share/doc/pkgfile/command-not-found.zsh
