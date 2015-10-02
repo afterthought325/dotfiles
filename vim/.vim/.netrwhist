@@ -1,5 +1,11 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =3
+let g:netrw_dirhist_cnt =9
 let g:netrw_dirhist_1='/usr/share/vim/vimfiles'
 let g:netrw_dirhist_2='/home/chaise/.config'
 let g:netrw_dirhist_3='/home/chaise/.i3'
+let g:netrw_dirhist_4='/home/chaise/dotfiles/mopidy'
+let g:netrw_dirhist_5='/home/chaise/.oh-my-zsh'
+let g:netrw_dirhist_6='/home/chaise/dotfiles/zsh/.oh-my-zsh'
+let g:netrw_dirhist_7='/etc/modules-load.d'
+let g:netrw_dirhist_8='/etc/x2go'
+let g:netrw_dirhist_9='/home/chaise/.vnc'

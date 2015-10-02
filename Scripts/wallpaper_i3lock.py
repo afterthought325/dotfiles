@@ -9,7 +9,7 @@ import locale
 
 encoding = locale.getdefaultlocale()[1]
 
-p = Popen("ls ~/ownCloud/Pictures/Wallpapers/*.png", stdout=PIPE, shell=True)
+p = Popen("ls ~/ownCloud/Pictures/Wallpapers/*", stdout=PIPE, shell=True)
 result=p.communicate()[0].decode(encoding).split('\n')[0:-1]
 n=len(result)
 comic=result[randint(0,n)]

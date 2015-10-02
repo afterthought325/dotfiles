@@ -15,7 +15,7 @@
 # `mopidy --version` to check the current version.
 
 [logging]
-#color = true
+color = true
 #console_format = %(levelname)-8s %(message)s
 #debug_format = %(levelname)-8s %(asctime)s [%(process)d:%(threadName)s] %(name)s\n  %(message)s
 #debug_file = mopidy.log
@@ -55,13 +55,13 @@ excluded_file_extensions =
   .ini
 
 [mpd]
-#enabled = true
-#hostname = localhost
-#port = 6600
-##password = 
+enabled = true
+hostname = localhost
+port = 6600
+password = "Giddyup2510"
 #max_connections = 20
 #connection_timeout = 60
-#zeroconf = Mopidy MPD server on $hostname
+zeroconf = Mopidy MPD server on $hostname
 
 [softwaremixer]
 #enabled = true
@@ -94,7 +94,7 @@ all_access = true
 # show radio stations in content browser
 show_radio_stations_browse = true
 # show radio stations as playlists
-show_radio_stations_playlist = false
+show_radio_stations_playlist = true
 # limit the number of radio stations, 0 = unlimited
 max_radio_stations = 0
 # limit the number or tracks for each radio station

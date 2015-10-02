@@ -68,10 +68,10 @@ source $ZSH/oh-my-zsh.sh
  fi
 
 # Compilation flags
-# export ARCHFLAGS="-arch x86_64"
+ export ARCHFLAGS="-arch x86_64"
 
 # ssh
-# export SSH_KEY_PATH="~/.ssh/dsa_id"
+ export SSH_KEY_PATH="~/.ssh/dsa_id"
 
 #export DEFAULT_USER = chaise
 
@@ -90,7 +90,7 @@ alias x='startx'
 alias s='sudo'
 alias ip='s ip'
 alias vi='sudo vim'
-alias vim='vim'
+alias svim='sudo vim'
 alias vimi='vim -c 'startinsert' '
 alias reboot='s reboot'
 alias poweroff='s poweroff'
@@ -114,19 +114,106 @@ alias rebootsysd='s systemctl daemon-reload'
 alias retrans='killall compton; compton -b --config ~/.compton.conf'
 
 # Terminal shortcuts
+alias ls='ls --color=auto --group-directories-first'
+alias cp='cp -v'
+alias NO='sudo $(history -p \!\!)'
 alias st='speedtest-cli'
-alias internalip='ifconfig -a | awk '/broadcast/\''{print $2}'\'''
-alias externalip='curl -s icanhazip.com'
+alias intip='ifconfig -a | awk '/broadcast/\''{print $2}'\'''
+alias extip='curl -s icanhazip.com'
 alias zip='s 7z'
 alias matrix='cmatrix -C cyan -abl'
 alias chaisefarrar.com="mosh chaise@chaisefarrar.com"
-alias wcfarrar.com="mosh chaise@wcfarrar.com"
+alias wcfarrar.com="mosh -ssh "ssh -p 4777"  chaise@wcfarrar.com"
+alias ytdl='youtube-dl -f bestvideo+bestaudio'
+twitch () { mpv --ytdl "https://twitch.tv/$1"; }
+alias mpvplay='livestreamer --player mpv --default-stream best'
+alias radio='mpv http://stream2138.init7.net:80'
+alias maze='clear; while true; do (( $RANDOM % 2 )) && echo -n ╱ || echo -n ╲; sleep 0.07; done'
+#Mount and Unmount shortcuts
+m () {
+    echo udevil mount /dev/$1
+    udevil mount /dev/$1
+    echo mounted media:
+    LANG=C grep --color=auto media =(mount)
+}
+
+u () {
+    echo udevil umount /dev/$1
+    udevil umount /dev/$1
+    if [[ $1 = sr0 ]]
+    then
+        echo eject /dev/sr0
+        eject /dev/sr0
+    fi
+    echo mounted media:
+    LANG=C grep --color=auto media =(mount)
+}
+
+# Easy extract
+extract () {
+    if [ -f $1 ] ; then
+        case $1 in
+        *.tar.bz2)   tar xvjf $1    ;;
+        *.tar.gz)    tar xvzf $1    ;;
+        *.bz2)       bunzip2 $1     ;;
+        *.rar)       rar x $1       ;;
+        *.gz)        gunzip $1      ;;
+        *.tar)       tar xvf $1     ;;
+        *.tbz2)      tar xvjf $1    ;;
+        *.tgz)       tar xvzf $1    ;;
+        *.zip)       unzip $1       ;;
+        *.Z)         uncompress $1  ;;
+        *.7z)        7z x $1        ;;
+        *)           echo "don't know how to extract '$1'..." ;;
+        esac
+    else
+        echo "'$1' is not a valid file!"
+    fi}
+
+anchor() {
+    ANCHOR=$(pwd)    
+    export ANCHOR
+    } 
+
 
 #Pacman Aliases
-alias pacin='packer -S'
-alias pacd='packer -Syu'
-alias pacrem='s pacman -Rs'
+pacin () {
+    packer-color -S $1
+    installdate=$(date +"%Y-%m-%d") 
+    echo -e "$installdate Installed package $1" >> /home/chaise/My_changelog.txt 
+    }
+pacrem () {
+    sudo pacman -Rs --color=auto $1
+    removedate=$(date +"%Y-%m-%d") 
+    echo -e "$removedate Removed package $1" >> /home/chaise/My_changelog.txt 
+    }
+pacro() {
+    if [[ ! -n $(pacman -Qdt) ]]; then
+        echo "No orphans to remove."
+    else
+        sudo pacman -Rns $(pacman -Qdtq)
+    fi
+    }
+    
+pacman-size() {
+    CMD="pacman -Si"
+	SEP=": "
+	TOTAL_SIZE=0
+	
+	RESULT=$(eval "${CMD} $@ 2>/dev/null" | awk -F "$SEP" -v filter="Size" -v pkg="^Name" \
+	  '$0 ~ pkg {pkgname=$2} $0 ~ filter {gsub(/\..*/,"") ; printf("%6s KiB %s\n", $2, pkgname)}' | sort -u -k3)
+	
+	echo "$RESULT"
+	
+	## Print total size.
+	echo "$RESULT" | awk '{TOTAL=$1+TOTAL} END {printf("Total : %d KiB\n",TOTAL)}'
+    }
+
+    
+#alias pacin='packer -S'
+alias pacd='packer-color -Syu'
+#alias pacrem='s pacman -Rs'
 
 #Arrow-key interface
 zstyle ':completion:*' menu select
-source /usr/share/doc/pkgfile/command-not-found.zsh
+#source /usr/share/doc/pkgfile/command-not-found.zsh

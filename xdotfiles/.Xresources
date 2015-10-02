@@ -30,10 +30,10 @@ Xft.dpi: 96
 Xft.antialias: true
 Xft.rgba: rgb
 Xft.hinting: true
-Xft.hintstyle: hintslight
+Xft.hintstyle: hintfull
 Xft.autohint: true
 Xft.lcdfilter: lcddefault
-
+#URxvt*letterSpace: -1
 
 ! URxvt*.depth: 32 
 ! URxvt.background: [80]#000000
@@ -106,10 +106,10 @@ Xft.lcdfilter: lcddefault
 ! URxvt*pointerColor2:                  color
 ! URxvt*borderColor:                    color
 ! URxvt*iconFile:                       file
-*font:                           xft:Inconsolata:size=10
-*boldFont:                       xft:Inconsolata Bold:size=11
-*italicFont:                     xft:Inconsolata Italic:size=11
-*boldItalicFont:                 xft:Inconsolata Bold Italic:size=11
+! *font:                           xft:Inconsolata:size=12:style=regular
+!*boldFont:                       xft:Inconsolata Bold:size=12
+!*italicFont:                     xft:Inconsolata Italic:size=12
+!*boldItalicFont:                 xft:Inconsolata Bold Italic:size=12
 ! URxvt*intensityStyles:                boolean
 ! URxvt*inputMethod:                    name
 ! URxvt*preeditType:                    style
@@ -129,7 +129,7 @@ URxvt*buffered:                       True
 ! URxvt*borderLess:                     boolean
 ! URxvt*lineSpace:                      number
 ! URxvt*letterSpace:                    number
-URxvt*skipBuiltinGlyphs:              True
+!URxvt*skipBuiltinGlyphs:              True
 ! URxvt*pointerBlankDelay:              number
 ! URxvt*backspacekey:                   string
 ! URxvt*deletekey:                      string

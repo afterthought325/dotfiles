@@ -1,1 +1,2 @@
-feh  --bg-fill '/home/chaise/Pictures/Backgrounds/Quattuor_by__kol.jpg' 
+#!/bin/sh
+ feh --bg-max --randomize --no-fehbg /home/chaise/ownCloud/Pictures/Wallpapers/*
