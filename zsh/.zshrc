@@ -52,7 +52,7 @@ plugins=(git)
 
 # User configuration
 
-export PATH="/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl"
+export PATH="/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/bin:/sbin"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 source $ZSH/oh-my-zsh.sh
@@ -176,17 +176,10 @@ anchor() {
     } 
 
 
-#Pacman Aliases
-pacin () {
-    packer-color -S $1
-    installdate=$(date +"%Y-%m-%d") 
-    echo -e "$installdate Installed package $1" >> /home/chaise/My_changelog.txt 
-    }
-pacrem () {
-    sudo pacman -Rs --color=auto $1
-    removedate=$(date +"%Y-%m-%d") 
-    echo -e "$removedate Removed package $1" >> /home/chaise/My_changelog.txt 
-    }
+#Package mananger Aliases
+alias pacin='sudo apt-get install -y'
+alias pacrem='sudo apt-get remove'
+alias searchfor='apt-cache search'
 pacro() {
     if [[ ! -n $(pacman -Qdt) ]]; then
         echo "No orphans to remove."
@@ -211,7 +204,7 @@ pacman-size() {
 
     
 #alias pacin='packer -S'
-alias pacd='packer-color -Syu'
+alias pacd='sudo apt-get update && sudo apt-get upgrade -y'
 #alias pacrem='s pacman -Rs'
 
 #Arrow-key interface
