@@ -20,8 +20,12 @@ Plugin 'tpope/vim-fugitive'
 Plugin 'octol/vim-cpp-enhanced-highlight'
 Plugin 'honza/vim-snippets'
 Plugin 'majutsushi/tagbar'
-Plugin 'roxma/nvim-yarp'
-Plugin 'roxma/vim-hug-neovim-rpc'
+Plugin 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+"Plugin 'tweekmonster/deoplete-clang2'
+let g:deoplete#enable_at_startup = 1
+"Plugin 'prabirshrestha/async.vim'
+"Plugin 'prabirshrestha/vim-lsp'
+"
 "Plugin 'neoclide/coc.nvim'
 "Plugin 'Valloric/YouCompleteMe'
 "Plugin 'tranvansang/octave.vim'

@@ -69,8 +69,7 @@ alias x='startx'
 alias s='sudo'
 alias ip='s ip'
 alias vi='sudo vim'
-alias svim='sudo vim'
-alias vimi='vim -c 'startinsert' '
+alias svim='sudo vim' alias vimi='vim -c 'startinsert' '
 alias reboot='s reboot'
 alias zshconfig="vim ~/.zshrc"
 alias vimconfig="vim ~/.config/nvim/init.vim"
@@ -112,7 +111,8 @@ alias wcfarrar.com="mosh -ssh "ssh -p 4777"  chaise@wcfarrar.com"
 alias ytdl='youtube-dl -f bestvideo+bestaudio'
 twitch () { mpv --ytdl "https://twitch.tv/$1"; }
 alias mpvplay='livestreamer --player mpv --default-stream best'
-alias radio='mpv http://stream2138.init7.net:80'
+alias bigbandradio='mpv http://199.189.111.28:8012/listen.pls' #www.1940sradio.com
+alias rocketradio='mpv http:\/\/live.wostreaming.net\/playlist\/southernstone-wrttaac-ibc1.m3u\?type=.flv' #Rocket 95.1
 alias maze='clear; while true; do (( $RANDOM % 2 )) && echo -n ╱ || echo -n ╲; sleep 0.07; done'
 ChangeGoPath () {
     export GOPATH=${PWD}
@@ -200,10 +200,10 @@ alias pacrem='sudo apt remove'
 alias searchfor='apt-cache search'
 
 # Base16 Shell
-BASE16_SHELL="$HOME/dotfiles/base16-shell/"
-[ -n "$PS1" ] && \
-    [ -s "$BASE16_SHELL/profile_helper.sh" ] && \
-        eval "$("$BASE16_SHELL/profile_helper.sh")"
+#BASE16_SHELL="$HOME/dotfiles/base16-shell/"
+#[ -n "$PS1" ] && \
+#    [ -s "$BASE16_SHELL/profile_helper.sh" ] && \
+#        eval "$("$BASE16_SHELL/profile_helper.sh")"
 
 #Command Completion
 autoload -Uz compinit
