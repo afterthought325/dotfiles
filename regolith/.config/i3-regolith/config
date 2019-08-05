@@ -4,7 +4,7 @@
 
 # This defines which key super maps to on your keyboard.  
 # Alt key is Mod1, and Windows key is Mod4
-set $mod Mod4
+set $mod Mod1
 
 # Color values are defined in ~/.Xresources-regolith
 
@@ -35,8 +35,8 @@ floating_modifier $mod
 hide_edge_borders smart
 
 # start a terminal
-#bindsym $mod+Return exec /usr/bin/st
-bindsym $mod+Return exec /usr/bin/gnome-terminal
+bindsym $mod+Return exec /usr/bin/st
+#bindsym $mod+Return exec /usr/bin/gnome-terminal
 
 # start a web browser
 bindsym $mod+Shift+Return exec /usr/bin/sensible-browser
@@ -98,7 +98,7 @@ bindsym $mod+minus gaps inner current minus 6
 bindsym $mod+plus gaps inner current plus 6
 
 # show/hide keybindings
-bindsym $mod+Shift+question exec --no-startup-id /usr/bin/conky-toggle.sh
+#bindsym $mod+Shift+question exec --no-startup-id /usr/bin/conky-toggle.sh
 
 # toggle tiling / floating
 bindsym $mod+Shift+f floating toggle
@@ -177,10 +177,6 @@ bindsym $mod+Shift+s exec systemctl suspend
 
 # shortcuts for common system configuration tasks
 bindsym $mod+p exec gnome-control-center
-bindsym $mod+w exec gnome-control-center wifi
-bindsym $mod+d exec gnome-control-center display
-bindsym $mod+n exec gnome-control-center network
-bindsym $mod+s exec gnome-control-center sound
 
 # resize window (you can also use the mouse for that)
 mode "Resize Mode" {

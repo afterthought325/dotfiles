@@ -1,3 +1,6 @@
 *~
 vim/.vim/bundle/*
 ranger/.config/ranger/history
+regolith/.config/i3-regolith/config-*
+!regolith/.config/i3-regolith/config-backup
+regolith/.config/i3-regolith/ftue*

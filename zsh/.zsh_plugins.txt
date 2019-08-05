@@ -1,0 +1,20 @@
+#Oh-My-Zsh plugins
+robbyrussell/oh-my-zsh path:plugins/git 
+robbyrussell/oh-my-zsh path:plugins/git-extras
+#robbyrussell/oh-my-zsh path:plugins/pip
+robbyrussell/oh-my-zsh path:plugins/ubuntu
+robbyrussell/oh-my-zsh path:plugins/command-not-found
+#robbyrussell/oh-my-zsh path:plugins/python
+robbyrussell/oh-my-zsh path:plugins/bgnotify
+#robbyrussell/oh-my-zsh path:plugins/fzf # BUG: Waiting for this to get fixed. issue #7998
+robbyrussell/oh-my-zsh path:plugins/extract
+robbyrussell/oh-my-zsh path:plugins/colored-man-pages
+#For theme
+robbyrussell/oh-my-zsh path:lib
+robbyrussell/oh-my-zsh path:themes/amuse.zsh-theme
+
+#Zsh-Users Plugins
+zsh-users/zsh-syntax-highlighting
+zsh-users/zsh-history-substring-search
+#Misc
+#bobthecow/git-flow-completion

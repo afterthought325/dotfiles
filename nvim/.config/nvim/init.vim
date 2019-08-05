@@ -2,61 +2,31 @@ set nocompatible              " be iMproved, required
 filetype off                  " required
 
 " set the runtime path to include Vundle and initialize
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
-" alternatively, pass a path where Vundle should install plugins
-"call vundle#begin('~/some/path/here')
+call plug#begin('~/.local/share/nvim/plugged')
 
-" let Vundle manage Vundle, required
-Plugin 'VundleVim/Vundle.vim'
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
+Plug 'mhinz/vim-signify'
+Plug 'tpope/vim-fugitive'
+Plug 'honza/vim-snippets'
+Plug 'majutsushi/tagbar'
+Plug 'vim-scripts/c.vim'
+Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+Plug 'octol/vim-cpp-enhanced-highlight', {'do':':cpp_class_scope_highlight=1'}
+"Plug 'tweekmonster/deoplete-clang2'
+"let g:deoplete#enable_at_startup = 1
+"Plug 'neoclide/coc.nvim'
+"Plug 'Valloric/YouCompleteMe'
+"Plug 'tranvansang/octave.vim'
+"Plug 'fatih/vim-go'
+"Plug 'ctrlpvim/ctrlp.vim'
+"Plug 'benekastah/neomake'
 
-" The following are examples of different formats supported.
-" Keep Plugin commands between vundle#begin/end.
-" plugin on GitHub repo
-Plugin 'vim-airline/vim-airline'
-Plugin 'vim-airline/vim-airline-themes'
-Plugin 'mhinz/vim-signify'
-Plugin 'tpope/vim-fugitive'
-Plugin 'octol/vim-cpp-enhanced-highlight'
-Plugin 'honza/vim-snippets'
-Plugin 'majutsushi/tagbar'
-Plugin 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
-"Plugin 'tweekmonster/deoplete-clang2'
-let g:deoplete#enable_at_startup = 1
-"Plugin 'prabirshrestha/async.vim'
-"Plugin 'prabirshrestha/vim-lsp'
-"
-"Plugin 'neoclide/coc.nvim'
-"Plugin 'Valloric/YouCompleteMe'
-"Plugin 'tranvansang/octave.vim'
-"Plugin 'fatih/vim-go'
-"Plugin 'ctrlpvim/ctrlp.vim'
-"Plugin 'benekastah/neomake'
-
-" plugin from http://vim-scripts.org/vim/scripts.html
-Plugin 'L9'
-Plugin 'c.vim'
-Plugin 'lua-support'
-" Git plugin not hosted on GitHub
-"Plugin 'git://git.wincent.com/command-t.git'
-" git repos on your local machine (i.e. when working on your own plugin)
-" the sparkup vim script is in a subdirectory of this repo called vim.
-" pass the path to set the runtimepath properly.
-" plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
+" plug from http://vim-scripts.org/vim/scripts.html
 
 " All of your Plugins must be added before the following line
-call vundle#end()            " required
-filetype plugin indent on    " required
-" To ignore plugin indent changes, instead use:
-"filetype plugin on
-"
-" Brief help
-" :PluginList       - lists configured plugins
-" :PluginInstall    - installs plugins; append `!` to update or just :PluginUpdate
-" :PluginSearch foo - searches for foo; append `!` to refresh local cache
-" :PluginClean      - confirms removal of unused plugins; append `!` to auto-approve removal
-"
-" see :h vundle for more details or wiki for FAQ
+call plug#end()            " required
+
 " Put your non-Plugin stuff after this line
 set laststatus=2
 syntax enable
