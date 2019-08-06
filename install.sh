@@ -19,8 +19,5 @@ curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs \
 git submodule init
 git submodule sync
 git submodule update
+git submodule foreach git checkout master
 git submodule foreach git pull
-
-stow -R zsh
-stow -R nvim
-stow -R regolith
