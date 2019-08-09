@@ -8,11 +8,10 @@ Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'mhinz/vim-signify'
 Plug 'tpope/vim-fugitive'
-Plug 'honza/vim-snippets'
-Plug 'majutsushi/tagbar'
-Plug 'vim-scripts/c.vim'
-Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
-Plug 'octol/vim-cpp-enhanced-highlight', {'do':':cpp_class_scope_highlight=1'}
+Plug 'majutsushi/tagbar', { 'on': 'TagbarToggle'}
+Plug 'vim-scripts/c.vim', { 'for': ['c', 'c++'] }
+Plug 'octol/vim-cpp-enhanced-highlight', { 'for': ['c', 'c++'] }
+"Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 "Plug 'tweekmonster/deoplete-clang2'
 "let g:deoplete#enable_at_startup = 1
 "Plug 'neoclide/coc.nvim'
@@ -58,7 +57,12 @@ endif
 let g:airline#extensions#tabline#enabled = 1
 let g:airline_powerline_fonts = 1
 let g:airline#extensions#whitespace#enabled = 1
+let g:airline_theme='dark_minimal'
 
+
+" Vim-CPP-Enhanced-Highlight
+let g:cpp_experimental_template_highlight = 1
+let g:cpp_class_scope_highlight=1
 
 set cursorline
 set guicursor+=a:blinkon0
