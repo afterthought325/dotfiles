@@ -1,22 +1,12 @@
 [submodule "powerline-fonts"]
     path = powerline-fonts
-    url = https://github.com/powerline/fonts.git
-[submodule "Vundle"]
-	path = Vundle/.vim/bundle/Vundle.vim
-	url = https://github.com/VundleVim/Vundle.vim.git
+	url = https://github.com/powerline/fonts.git
+	branch = master
 [submodule "base16-gnome-terminal"]
-	path = base16-gnome-terminal
+	path = base16/base16-gnome-terminal
 	url = https://github.com/chriskempson/base16-gnome-terminal.git
 	branch = master
 [submodule "base16-shell"]
-	path = base16-shell
+	path = base16/base16-shell
 	url = https://github.com/chriskempson/base16-shell.git
-	branch = master
-[submodule "Vundle.vim"]
-	path = Vundle.vim
-	url = https://github.com/VundleVim/Vundle.vim.git
-	branch = master
-[submodule "fonts"]
-	path = fonts
-	url = https://github.com/powerline/fonts.git
 	branch = master
