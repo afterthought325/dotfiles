@@ -16,7 +16,7 @@ chmod +x ~/dotfiles/antibody/antibody
 curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs \
     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 
-nvim --headless +PlugInstall +q
+nvim --headless +PlugInstall +qa
 
 git submodule init
 git submodule sync
