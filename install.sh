@@ -1,6 +1,6 @@
 #!/bin/sh
 sudo apt update
-sudo apt install git git-extras zsh ccache neovim stow htop curl mpv cmatrix \
+sudo apt install git ranger git-extras zsh ccache neovim stow htop curl mpv cmatrix \
     clang gcc cmake make ninja-build build-essential doxygen libpcap-dev \
     wireshark openvpn network-manager-openvpn network-manager-openvpn-gnome \
 
@@ -15,6 +15,8 @@ chmod +x ~/dotfiles/antibody/antibody
 
 curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs \
     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+
+nvim --headless +PlugInstall +q
 
 git submodule init
 git submodule sync
