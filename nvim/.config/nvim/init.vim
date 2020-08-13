@@ -11,6 +11,8 @@ Plug 'tpope/vim-fugitive'
 Plug 'majutsushi/tagbar', { 'on': 'TagbarToggle'}
 Plug 'vim-scripts/c.vim', { 'for': ['c', 'c++'] }
 Plug 'octol/vim-cpp-enhanced-highlight', { 'for': ['c', 'c++'] }
+Plug 'vhda/verilog_systemverilog.vim'
+Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }, 'for': ['markdown', 'vim-plug']}
 "Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 "Plug 'tweekmonster/deoplete-clang2'
 "let g:deoplete#enable_at_startup = 1
@@ -32,17 +34,23 @@ syntax enable
 
 " Allows writing to files with root priviladges
 cmap w!! w !sudo tee % > /dev/null
+
+" Show line numbers
  set number
 
 filetype plugin indent on
+"" Do 4 spaces instead of a tab. AKA Reasonable defaults
 " show existing tab with 4 spaces width
 set tabstop=4
 " when indenting with '>', use 4 spaces width
 set shiftwidth=4
 " On pressing tab, insert 4 spaces
 set expandtab
+
+
 " Set textwidth
 set textwidth=92
+
 " Set column width
 if exists('+colorcolumn')
     set colorcolumn=+1

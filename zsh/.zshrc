@@ -22,6 +22,9 @@ export ARCHFLAGS="-arch x86_64"
 # ssh
 export SSH_KEY_PATH="~/.ssh/dsa_id"
 
+#Add cargo packages to path
+export PATH=$PATH:"/home/farrar/.cargo/bin"
+
 #export DEFAULT_USER = chaise
 
 # Set personal aliases, overriding those provided by oh-my-zsh libs,
