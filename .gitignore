@@ -1,6 +1,8 @@
 *~
 vim/.vim/bundle/*
 ranger/.config/ranger/history
+nvim/.config/nvim/.netrwhist
+zsh/.zsh_plugins.sh
 regolith/.config/i3-regolith/config-*
 !regolith/.config/i3-regolith/config-backup
 regolith/.config/i3-regolith/ftue*
