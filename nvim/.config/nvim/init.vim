@@ -10,6 +10,7 @@ Plug 'mhinz/vim-signify'
 Plug 'tpope/vim-fugitive'
 Plug 'majutsushi/tagbar', { 'on': 'TagbarToggle'}
 Plug 'vim-scripts/c.vim', { 'for': ['c', 'c++'] }
+Plug 'vim-scripts/DoxygenToolkit.vim', { 'for': ['c', 'c++'] }
 Plug 'octol/vim-cpp-enhanced-highlight', { 'for': ['c', 'c++'] }
 Plug 'vhda/verilog_systemverilog.vim'
 Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }, 'for': ['markdown', 'vim-plug']}
@@ -85,6 +86,9 @@ set linebreak
 set autoindent
 set smartindent
 set copyindent
+
+" DoxygenToolkit.vim
+let g:DoxygenToolkit_commentType = "C++"
 
 " Allow modified buffers to be hidden
  set hidden
