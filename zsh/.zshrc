@@ -5,7 +5,10 @@
 #export fzf location for zsh plugin
 export FZF_BASE=/usr/bin/fzf
 
+
 # Antibody Configuration
+DISABLE_AUTO_UPDATE=true
+ZSH="${HOME}/.cache/antibody/https-COLON--SLASH--SLASH-github.com-SLASH-robbyrussell-SLASH-oh-my-zsh"
 source ~/.zsh_plugins.sh
 
 #export QEMU_LD_PREFIX=/usr/arm-linux-gnueabihf
@@ -13,8 +16,10 @@ source ~/.zsh_plugins.sh
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
 
+
+
 # Preferred editor for local and remote sessions
-export EDITOR='vim'
+export EDITOR='nvim'
 
 # Compilation flags
 export ARCHFLAGS="-arch x86_64"
@@ -24,6 +29,9 @@ export SSH_KEY_PATH="~/.ssh/dsa_id"
 
 #Add cargo packages to path
 export PATH=$PATH:"/home/farrar/.cargo/bin"
+
+#Add chromium as "CHROME_EXECUTABLE" for flutter
+export CHROME_EXECUTABLE=chromium
 
 #export DEFAULT_USER = chaise
 

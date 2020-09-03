@@ -13,6 +13,7 @@ Plug 'vim-scripts/c.vim', { 'for': ['c', 'c++'] }
 Plug 'vim-scripts/DoxygenToolkit.vim', { 'for': ['c', 'c++'] }
 Plug 'octol/vim-cpp-enhanced-highlight', { 'for': ['c', 'c++'] }
 Plug 'vhda/verilog_systemverilog.vim'
+Plug 'dart-lang/dart-vim-plugin'
 Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }, 'for': ['markdown', 'vim-plug']}
 "Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 "Plug 'tweekmonster/deoplete-clang2'
